@@ -1,11 +1,11 @@
-# Repositório de Exercícios
+# Exercise Repository
 
-Este é o repositório dedicado aos exercícios em andamento. Contribua, pratique e aprimore suas habilidades!
+This is the repository dedicated to ongoing exercises. Contribute, practice, and enhance your skills!
 
-## Contribuindo
+## Contributing
 
-1. Faça um fork.
-2. Faça suas alterações.
-3. Abra um pull request.
+1. Fork the repository.
+2. Make your changes.
+3. Open a pull request.
 
-Obrigado por contribuir!
+Thank you for contributing!
