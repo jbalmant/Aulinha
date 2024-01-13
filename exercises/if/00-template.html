@@ -81,44 +81,52 @@
       }
 
       .ajs-message.ajs-success {
-        background: #28a745 !important; 
-        color: #fff !important; 
+        background: #28a745 !important;
+        color: #fff !important;
       }
 
       .ajs-message.ajs-error {
-        background: #dc3545 !important; 
-        color: #fff !important; 
+        background: #dc3545 !important;
+        color: #fff !important;
       }
 
       .ajs-message.ajs-warning {
-        background: #ffc107 !important; 
-        color: #212529 !important; 
+        background: #ffc107 !important;
+        color: #212529 !important;
       }
 
       .ajs-message {
-        border-radius: 8px !important; 
+        border-radius: 8px !important;
       }
     </style>
   </head>
+
   <body>
     <div class="container">
       <div class="text-center">
-        <h2>Title</h2>
-        <h4>Description
-        </h4>
+        <h2>***TITULO***</h2>
+        <h4>***DESCRICAO***</h4>
       </div>
 
       <div class="form-container-wrapper">
         <div class="form-container">
           <form>
             <div class="mb-3">
-              <label for="numberInput" class="form-label"
-                >Alguma Coisa:</label
-              >
+              <label for="inputOne" class="form-label"> Texto 1:</label>
               <input
                 type="number"
                 class="form-control"
-                id="numberInput"
+                id="inputOne"
+                value="0"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="inputTwo" class="form-label">Texto 2:</label>
+              <input
+                type="number"
+                class="form-control"
+                id="inputTwo"
                 value="0"
                 required
               />
@@ -126,7 +134,7 @@
             <button
               type="button"
               class="btn btn-primary"
-              onclick="myFunction()"
+              onclick="handleClick()"
             >
               Verificar
             </button>
@@ -140,9 +148,35 @@
     <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 
     <script>
-      function myFunction() {
-        alertify.notify('message', 'success', 15);
+      function handleClick() {
+        const inputOne = parseInt(document.getElementById("inputOne").value);
+        const inputTwo = parseInt(document.getElementById("inputTwo").value);
+
+        const response = someFunction();
+
+        alertify.notify(response, "success");
       }
+
+      function someFunction() {
+        return true;
+      }
+
+      function tests() {
+        console.log(">>> TESTS");
+
+        assert(someFunction(), true);
+        assert(someFunction(), false);
+      }
+
+      function assert(actual, expected) {
+        if (actual === expected) {
+          console.log("SUCCESS");
+        } else {
+          console.error("FAIL");
+        }
+      }
+
+      tests();
     </script>
   </body>
 </html>
