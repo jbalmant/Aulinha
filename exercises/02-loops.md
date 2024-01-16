@@ -35,7 +35,3 @@ Solicite ao usuário que insira itens de uma lista de compras usando um loop whi
 ### Exercício 9: Série Fibonacci
 
 Crie um programa que peça ao usuário um número N e, em seguida, utilize um loop for para imprimir os primeiros N termos da série de Fibonacci.
-
-### Exercício 10: Palíndromo
-
-Elabore um programa que solicite uma palavra ao usuário e utilize um loop while para verificar se a palavra é um palíndromo (ou seja, lê-se da mesma forma de trás para frente).
