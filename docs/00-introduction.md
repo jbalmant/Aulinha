@@ -1,0 +1,3 @@
+### Introdução
+
+A lógica de programação é a habilidade de resolver problemas de forma estruturada, dividindo-os em etapas menores e criando sequências lógicas de instruções. Envolve compreender o problema, decompor em tarefas simples, desenvolver um algoritmo, traduzi-lo para uma linguagem de programação e testar a solução. É a base para construir programas eficientes e enfrentar desafios computacionais.

@@ -13,8 +13,8 @@ for (inicialização; condição; expressão de atualização) {
 ```
 
 1. Inicialização: É onde você configura a variável de controle ou outras configurações antes do início do loop.
-   2.Condição: Uma expressão booleana que, enquanto verdadeira, mantém a execução do loop.
-2. Expressão de Atualização: Executada após cada iteração, geralmente usada para incrementar ou decrementar a variável de controle.
+2. Condição: Uma expressão booleana que, enquanto verdadeira, mantém a execução do loop.
+3. Expressão de Atualização: Executada após cada iteração, geralmente usada para incrementar ou decrementar a variável de controle.
 
 Exemplo em JavaScript:
 
