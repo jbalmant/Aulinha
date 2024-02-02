@@ -28,10 +28,6 @@ Desenvolva um jogo em que o computador escolhe um número aleatório entre 1 e 1
 
 Peça ao usuário para inserir as notas de um aluno, utilizando um loop while para permitir a entrada de várias notas. Calcule e imprima a média das notas.
 
-### Exercício 8: Lista de Compras
-
-Solicite ao usuário que insira itens de uma lista de compras usando um loop while. Ao final, exiba a lista completa.
-
-### Exercício 9: Série Fibonacci
+### Exercício 8: Série Fibonacci
 
 Crie um programa que peça ao usuário um número N e, em seguida, utilize um loop for para imprimir os primeiros N termos da série de Fibonacci.
